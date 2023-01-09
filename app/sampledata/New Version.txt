@@ -1,8 +1,0 @@
-- Změnit verzi v Strings
-- Upravit ChangeLog fragment
-- Opravit Splash screen timer
-- Build -> Build Bundle(s) / APK(s) -> Build APK(s)
-- Přejmenovat soubor
-- Nahrát na Media Fire
-- Změnit odkaz na Beacons Page
-- Změnit verzi na https://pastebin.com/qsxYuqs4
