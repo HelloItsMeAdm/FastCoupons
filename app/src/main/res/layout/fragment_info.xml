@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingBottom="40dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/ultra_dark_gray"
+        android:drawableLeft="@drawable/ic_home_white"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_up_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/poppins_p"
+        android:text="Návrat domů"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_below="@+id/about"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins_h1"
+        android:gravity="center"
+        android:text="Informace o aplikaci"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="43dp"
+        android:fontFamily="@font/poppins_p"
+        android:gravity="center"
+        android:text="• Tato aplikace slouží pouze k pro testovací účely, za zneužití nenese autor žádnou odpovědnost\n• Tato aplikace je proti TOS McDonald's a KFC, takže buď rád, že to díky mě máš tak levné :)\n• Chceš mě podpořit? Klikni na tlačítko dole!\n• Vývoj této aplikace začal 14.6.2021!"
+        android:textColor="#ffffff"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="Chci podpořit!"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_p"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/ultra_dark_gray"
+        android:drawableLeft="@drawable/ic_user_white"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/web"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_p"
+        android:text="@string/version_name"
+        android:textColor="@color/gray"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/poppins_p"
+        android:gravity="center"
+        android:text="Copyright © HelloItsMeAdm/Vojtěch Adam"
+        android:textColor="@color/gray"
+        android:textSize="12dp" />
+
+</RelativeLayout>

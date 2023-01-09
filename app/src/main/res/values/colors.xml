@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#BEBEBE</color>
+    <color name="dark_gray">#808080</color>
+    <color name="very_dark_gray">#454545</color>
+    <color name="ultra_dark_gray">#1a1a1a</color>
+
+    <color name="dark_green">#00733d</color>
+    <color name="dark_green_light">#008044</color>
+    <color name="dark_green_darker">#00542d</color>
+    <color name="dark_green_more_darker">#002e05</color>
+    <color name="dark_green_very_dark">#0b220e</color>
+
+    <color name="yellow_light">#5e4600</color>
+    <color name="red">#bd3131</color>
+    <color name="trans">#00000000</color>
+
+    <!-- COUPONS EFAB-->
+
+    <color name="fab_0">#ff7300</color>
+    <color name="fab_1">#22ff00</color>
+    <color name="fab_err">#00a6ff</color>
+
+    <!-- INTRO -->
+
+    <color name="intro_colorPrimary">#3F51B5</color>
+    <color name="intro_colorPrimaryDark">#303F9F</color>
+    <color name="intro_colorAccent">#FF4081</color>
+
+    <color name="intro_bg_screen1">#000000</color>
+    <color name="intro_bg_screen2">#00a621</color>
+    <color name="intro_bg_screen3">#3395ff</color>
+    <color name="intro_bg_screen4">#FFA200</color>
+
+    <color name="intro_dot_dark_screen1">#171717</color>
+    <color name="intro_dot_dark_screen2">#007A22</color>
+    <color name="intro_dot_dark_screen3">#2278d4</color>
+    <color name="intro_dot_dark_screen4">#AD6200</color>
+
+    <color name="intro_dot_light_screen1">#2b2b2b</color>
+    <color name="intro_dot_light_screen2">#00CB22</color>
+    <color name="intro_dot_light_screen3">#93c6fd</color>
+    <color name="intro_dot_light_screen4">#FFC800</color>
+
+    <array name="array_dot_active">
+        <item>@color/intro_dot_light_screen1</item>
+        <item>@color/intro_dot_light_screen2</item>
+        <item>@color/intro_dot_light_screen3</item>
+        <item>@color/intro_dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/intro_dot_dark_screen1</item>
+        <item>@color/intro_dot_dark_screen2</item>
+        <item>@color/intro_dot_dark_screen3</item>
+        <item>@color/intro_dot_dark_screen4</item>
+    </array>
+</resources>

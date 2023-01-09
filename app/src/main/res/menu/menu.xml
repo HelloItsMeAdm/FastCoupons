@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mcdonalds"
+        android:icon="@drawable/mcd_small_white"
+        android:title="McDonald's"
+        app:cnb_iconColor="@color/dark_green" />
+
+    <item
+        android:id="@+id/kfc"
+        android:icon="@drawable/kfc_small_white"
+        android:title="KFC"
+        app:cnb_iconColor="@color/red" />
+
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/ic_settings"
+        android:title="Other"
+        app:cnb_iconColor="@color/gray" />
+
+</menu>

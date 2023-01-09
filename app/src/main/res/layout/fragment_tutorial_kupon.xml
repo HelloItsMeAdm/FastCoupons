@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/ultra_dark_gray"
+            android:drawableLeft="@drawable/ic_home_white"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_up_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_p"
+            android:text="Návrat domů"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#BEBEBE" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nav"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins_h1"
+            android:gravity="center"
+            android:text="Jak na kódy?"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="43dp"
+            android:fontFamily="@font/poppins_p"
+            android:gravity="center"
+            android:text="U tabletu"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tablet_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tablet"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="43dp"
+            android:fontFamily="@font/poppins_p"
+            android:gravity="center"
+            android:text="1) Najdeš si kód jídla, na které máš chuť\n2) Na tabletu (v pravo nahoře) zmáčkneš tlačítko 'Mám kupón'\n3) Vybereš Barcode\n4) Zmáčkneš 'Zadat ručně'\n5) Opíšeš kód z aplikace\n6) Zmáčkneš 'Potvrdit' a máš hotovo!"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_below="@+id/tablet_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="#BEBEBE" />
+
+        <TextView
+            android:id="@+id/cashdesk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="43dp"
+            android:fontFamily="@font/poppins_p"
+            android:gravity="center"
+            android:text="U pokladny"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cashdesk_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cashdesk"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="43dp"
+            android:fontFamily="@font/poppins_p"
+            android:gravity="center"
+            android:text="1) Najdeš si kód jídla, na které máš chuť\n2) U pokladny ukážeš daný kupón\n3) Zde je možné, že tě pokladní pošle někam, ale to nevadí, musíš se s ní hádat :)\n4) Pokud jsi hádku vyhrál, dostaneš své jídlo, pokud ne nejspíše budeš z restaurace vyhozen a budeš o hladu :D"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+
+    </RelativeLayout>
+</ScrollView>

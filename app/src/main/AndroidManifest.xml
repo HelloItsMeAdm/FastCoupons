@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vojtechadam.fastcoupons">
+
+    <!-- Check intenet access -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- Download and Install apk -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/applogo_black"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo_black"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name="com.vojtechadam.fastcoupons.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.vojtechadam.fastcoupons.SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.vojtechadam.fastcoupons.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:hardwareAccelerated="true"/>
+
+        <activity
+            android:name="com.vojtechadam.fastcoupons.SnackbarTimer"
+            android:theme="@style/Kupony" />
+
+        <!-- KUPONY - MORNING -->
+
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Morning1Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Morning2Activity"
+            android:theme="@style/Kupony" />
+
+        <!-- KUPONY - AFTERNOON -->
+
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon1Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon2Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon3Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon4Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon5Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon6Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon7Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon8Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon9Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon10Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon11Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon12Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon13Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon14Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon15Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon16Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon17Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon18Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon19Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon20Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon21Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon22Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Afternoon23Activity"
+            android:theme="@style/Kupony" />
+
+        <!-- KUPONY - OTHER -->
+
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Other1Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Other2Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Other3Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Other4Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Other5Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Other6Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Other7Activity"
+            android:theme="@style/Kupony" />
+        <activity
+            android:name="com.vojtechadam.fastcoupons.Other8Activity"
+            android:theme="@style/Kupony" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,89 @@
+<!DOCTYPE resources[
+<!ENTITY version_num "1.2.2">
+]>
+
+<resources>
+
+    <!-- VERSION -->
+
+    <string name="version_raw">&version_num;</string>
+    <string name="version_name">Version v&version_num; Stable</string>
+
+    <!-- ROOT -->
+
+    <string name="app_name">Fast Coupons</string>
+    <string name="app_name_with_author">Fast Coupons\nby HelloItsMeAdm</string>
+    <string name="map_key" translatable="false">AIzaSyDrBWUK1yEUp4fsrqILXP8vJX_XTLsIcrM</string>
+
+    <!-- ADS -->
+
+    <string name="ad_main">ca-app-pub-8216496073560469/3229417239</string>
+    <string name="ad_banner">ca-app-pub-8216496073560469/7231886209</string>
+    <string name="ad_reward">ca-app-pub-8216496073560469/1266410948</string>
+
+    <!-- OTHER -->
+
+    <string name="heart"><![CDATA[• Pokud najdeš nějakou chybu nahlaš to prosím autorovi <3]]></string>
+    <string name="update_button">Aktulizovat</string>
+
+    <!-- SHORTCUTS -->
+
+    <string name="compose_shortcut_short_label">MC</string>
+    <string name="compose_shortcut_long_label">McDonald\'s</string>
+    <string name="compose_disabled_message">Funkce nedostupná</string>
+
+    <!-- COUPONS -->
+
+    <string name="morning_time">06:00 - 10:30</string>
+    <string name="afternoon_time">10:30 - 06:00</string>
+    <string name="allday_time">06:00 - 23:00</string>
+
+    <string name="morning_desc">Nabídka platí v restauracích podávajících snídaně do 10:30.</string>
+    <string name="afternoon_desc">V restauracích podávajících snídaně platí nabídka od 10:30.</string>
+    <string name="allday_desc">Nabídka platí po celý den.</string>
+
+    <string name="havent_done">KUPÓN JEŠTĚ NEBYL DODĚLANÝ!</string>
+
+    <string name="morning_1">McMuffin</string> <!-- CHYBÍ -->
+    <string name="morning_2">McMuffin Menu</string> <!-- CHYBÍ -->
+
+    <string name="afternoon_1">Double CheeseBurger + Malá Cola</string> <!-- CHYBÍ -->
+    <string name="afternoon_2">Tikka Masala Cheese + Malé hranolky + Malý nápoj</string> <!-- CHYBÍ -->
+    <string name="afternoon_3">4 Chicken nuggets + Malé hranolky + Malý nápoj</string> <!-- CHYBÍ -->
+    <string name="afternoon_4">Big Mac + Střední hranolky</string> <!-- CHYBÍ -->
+    <string name="afternoon_5">Velké McMenu + 2 Chicken Strips</string> <!-- CHYBÍ -->
+    <string name="afternoon_6">2x Malé McMenu + Hranolky + Nápoj</string> <!-- CHYBÍ -->
+    <string name="afternoon_7">McChicken + Střední Hranolky</string>
+    <string name="afternoon_8">Velké McMenu + 6 Chicken Nuggets</string>
+    <string name="afternoon_9">Double CheeseBurger + Střední hranolky</string>
+    <string name="afternoon_10">CheeseBurger + Malé hranolky + Malý nápoj</string> <!-- CHYBÍ -->
+    <string name="afternoon_11">20 ks Chicken nuggets + 2x Velké hranolky</string> <!-- CHYBÍ -->
+    <string name="afternoon_12">9 ks Chicken nuggets</string> <!-- CHYBÍ -->
+    <string name="afternoon_13">6 ks Chicken nuggets + Střední hranolky</string> <!-- CHYBÍ -->
+    <string name="afternoon_14">6 Chicken nuggets + 2 Chicken strips + Velké hranolky</string> <!-- CHYBÍ -->
+    <string name="afternoon_15">McChicken + velký sycený nápoj</string>
+    <string name="afternoon_16">2x Big Mac + 2x velké hranolky</string>
+    <string name="afternoon_17">2x Cheeseburger + střední Lipton Ice Tea</string>
+    <string name="afternoon_18">2x Velké McMenu + 6 ks Chicken McNuggets zdarma</string>
+    <string name="afternoon_19">6 ks Chicken McNuggets Velké McMenu</string>
+    <string name="afternoon_20">McChicken + střední hranolky</string>
+    <string name="afternoon_21">Double Cheeseburger + velké hranolky + velký sycený nápoj</string>
+    <string name="afternoon_22">9 ks Chicken McNuggets + velké hranolky</string>
+    <string name="afternoon_23">Big Mac</string>
+
+    <string name="other_1">McFlurry</string>
+    <string name="other_2">Velký Milk Shake</string>
+    <string name="other_3">Káva McCafé</string> <!-- CHYBÍ -->
+    <string name="other_4">McCafé Cappucino Freddo nebo Latte Freddo</string> <!-- CHYBÍ -->
+    <string name="other_5">Káva + Zákusek McCafé</string> <!-- CHYBÍ -->
+    <string name="other_6">Nápoj k bagelu</string> <!-- CHYBÍ -->
+    <string name="other_7">Velký nápoj</string> <!-- CHYBÍ -->
+    <string name="other_8">2x McSundae</string>
+
+    <!-- INTRO -->
+
+    <string name="next">DALŠÍ</string>
+    <string name="skip">PŘESKOČIT</string>
+    <string name="start">POJĎME NA TO!</string>
+
+</resources>

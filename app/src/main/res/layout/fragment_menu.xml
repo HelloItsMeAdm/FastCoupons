@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/applogo_white" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="1.5dp"
+            android:layout_below="@+id/image1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#BEBEBE" />
+
+        <TextView
+            android:id="@+id/tutorials_mcd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line1"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_h1"
+            android:text="Tutoriály - McDonald's"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tutorial_kupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tutorials_mcd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_help_outline_24"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_p"
+            android:text="Jak používat kupóny?"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tutorial_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_p"
+            android:layout_below="@+id/tutorial_kupon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_money_white"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:drawablePadding="10dp"
+            android:text="Placení hotově u tabletu"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="1.5dp"
+            android:layout_below="@+id/tutorial_pay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#BEBEBE" />
+
+        <TextView
+            android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line2"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_h1"
+            android:text="Ostatní"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/other"
+            android:fontFamily="@font/poppins_p"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_share_white"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:drawablePadding="10dp"
+            android:text="Sdílet aplikaci"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/changelog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/share"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_p"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_format_list_bulleted_24"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:drawablePadding="10dp"
+            android:text="Changelog"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_p"
+            android:layout_below="@+id/changelog"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:drawablePadding="10dp"
+            android:text="O aplikaci"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/ic_settings_white"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:drawablePadding="10dp"
+            android:text="Nastavení"
+            android:fontFamily="@font/poppins_p"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+- Screen kupónu
+- Přidat string
+- Přidat Activity (Java - Afternoon1Activity)
+- Přidat layout u pokladny (layout - afternoon_1)
+- Upravit hlavní layout (layout - afternoon_fragment)
+- Přidat do AndroidManifest
